@@ -22,6 +22,7 @@ env:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    repo-token: ghp_dh4jdFdjr5GHdGfT7kslsfdlk4GFlf3DS4j9
     steps:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
